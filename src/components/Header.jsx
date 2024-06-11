@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
+import Home from '../Pages/Home'
 const Header = () =>
 {
   const cart = useSelector((state) => state.products.cart)
@@ -41,6 +42,7 @@ const Header = () =>
 				</Link>
 				</div>
 			</div>
+			<Home />
 		</header>
 	)
 }
