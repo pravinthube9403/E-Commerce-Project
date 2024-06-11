@@ -29,7 +29,7 @@ onAuthStateChanged(auth,(user) =>
             email: user.email,
             password:user.password,
             
-     }))   
+     }))  
     }
     else
     {
