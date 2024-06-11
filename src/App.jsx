@@ -53,6 +53,7 @@ const App = () => {
 					Component={NoPage}
 				/>
 			</Routes>
+			<Home />
 			<Footer />
 		</>
 	)
