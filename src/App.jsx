@@ -48,7 +48,6 @@ const App = () => {
 					Component={Dashboard}
 				/>
 			</Routes>
-			<Home />
 			<Footer />
 		</>
 	)
