@@ -48,10 +48,6 @@ const App = () => {
 					path='dashboard'
 					Component={Dashboard}
 				/>
-				<Route
-					path='*'
-					Component={NoPage}
-				/>
 			</Routes>
 			<Home />
 			<Footer />
